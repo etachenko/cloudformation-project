@@ -7,14 +7,5 @@ Resources:
       InstanceType: t2.micro
       Tags: 
        - Key: "Name"
-         Value: Elie
-  AddEC2Instance: 
-    Type: "AWS::EC2::Instance"
-    Properties: 
-      AvailabilityZone: us-west-1b
-      ImageId: "ami-0a2781a262879e465" 
-      InstanceType: t2.small
-      Tags: 
-       - Key: "Name"
-         Value: Tachenko
-         
+        Value: Elie
+

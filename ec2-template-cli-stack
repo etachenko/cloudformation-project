@@ -1,0 +1,4 @@
+aws cloudformation create-stack ^
+  --stack-name Elie-EC2-Stack ^
+  --template-body file://"C:\Users\tache\OneDrive\Documents\cloudformation-project\my-first-ec2-template.yaml" ^
+  --region us-west-1
